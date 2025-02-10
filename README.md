@@ -1,6 +1,6 @@
 # SceneShield: AI Fake Image Classifier
 
-![SceneShield AI Fake Image Classifier](images/banner.png)
+![SceneShield AI Fake Image Classifier](Fake_image)
 
 ## Overview
 This repository contains a deep learning model for **fake scene classification**, utilizing data from **CIDAUT AI Fake Scene Classification 2024**. The notebook includes Python code for loading data, applying data augmentations, and training a model using **PyTorch**.
@@ -56,7 +56,7 @@ transform = transforms.Compose([
 ])
 ```
 
-![Data Augmentation Example](images/augmentation.png)
+
 
 ## Advanced Custom Dataset Class
 A custom dataset class is implemented for more control over data processing:
@@ -97,7 +97,6 @@ gmm = GaussianMixture(n_components=2, random_state=42)
 gmm.fit(features)
 ```
 
-![GMM Clusters](images/gmm.png)
 
 ## Results
 The final trained model achieves **97% accuracy** on the validation set.
